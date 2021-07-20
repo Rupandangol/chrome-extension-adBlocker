@@ -1,0 +1,22 @@
+{
+    "name":"NepAdBlock",
+    "version":"1.0.0",
+    "description":"Ad blocker for nepali websites",
+    "permissions":[
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background":{
+        "scripts":[
+            "/assets/js/background.js"
+        ]
+    },
+    "icons":{
+        "16":"/assets/icons/logo_16.png",
+        "48":"/assets/icons/logo_48.png",
+        "128":"/assets/icons/logo_128.png"
+    },
+    "manifest_version":2
+    
+}
